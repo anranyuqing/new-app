@@ -1,11 +1,17 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from '@/router'
-import 'virtual:uno.css';
-import '@unocss/reset/sanitize/sanitize.css'
+import { setupRouter } from '@/router'
 import { setupStyle } from './styles'
+import { setupAssets } from './plugins'
+import { setupStore } from '@/store'
 
-setupStyle()
 const app = createApp(App)
-app.use(router)
+/*注册全局样式 */
+setupStyle()
+/*注册静态资源 */
+setupAssets()
+/*注册路由 */
+setupRouter(app)
+/*注册状态管理器 */
+setupStore(app)
 app.mount('#app')

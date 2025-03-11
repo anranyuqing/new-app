@@ -1,33 +1,22 @@
 <template>
-  <n-layout has-sider>
-    <n-layout-sider
-      bordered
-      collapse-mode="width"
-      :collapsed-width="64"
-      :width="240"
-      :collapsed="collapsed"
-      show-trigger
-      @collapse="collapsed = true"
-      @expand="collapsed = false"
-    >
-      <n-menu
-        :collapsed="collapsed"
-        :collapsed-width="64"
-        :collapsed-icon-size="22"
-        :options="menuOptions"
-        :render-label="renderMenuLabel"
-        :render-icon="renderMenuIcon"
-        :expand-icon="expandIcon"
-      />
-    </n-layout-sider>
-  </n-layout>
+  <n-layout-sider bordered collapse-mode="width" :collapsed-width="64" :width="240" :collapsed="collapsed" show-trigger
+    @collapse="collapsed = true" @expand="collapsed = false" class="h-full">
+    <n-menu :collapsed="collapsed" :collapsed-width="64" :collapsed-icon-size="22" :options="menuOptions"
+      :render-icon="renderIcon" @update:value="handleClick" />
+  </n-layout-sider>
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, h } from "vue";
+import Icon from '@/components/Icon/index.vue'
+import { useRouter } from 'vue-router'
 
-function renderIcon(icon: Component) {
-  return () => h(NIcon, null, { default: () => h(icon) });
+const router = useRouter();
+
+const collapsed = ref(false);
+
+function renderIcon({ iconName }) {
+  return h(Icon, { icon: iconName });
 }
 
 const menuOptions = ref([
@@ -35,17 +24,33 @@ const menuOptions = ref([
     label: "工作台",
     children: [],
     key: "workbench",
+    iconName: 'line-md:document-report',
   },
   {
     label: "3D可视化",
     children: [],
     key: "3d",
+    iconName: 'iconoir:select-face-3d',
   },
   {
     label: "文档中心",
-    children: [],
     key: "file",
-    icon:BookIcon,
+    iconName: 'material-symbols:drive-file-move-outline',
+    children: [
+      {
+        label: "3D可视化",
+        key: "3d",
+        path: ''
+      },
+    ],
   },
 ]);
+
+function handleClick(key: string, node: any) {
+  if (!node.path) {
+    console.warn('当前菜单未配置路由')
+    return
+  }
+  router.push(node.path)
+}
 </script>

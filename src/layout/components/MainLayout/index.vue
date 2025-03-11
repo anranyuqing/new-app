@@ -1,5 +1,9 @@
 <template>
-  <div class="flex bg-red">33</div>
+  <div class="w-full  box-border overflow-auto">
+    <router-view />
+  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+</script>
