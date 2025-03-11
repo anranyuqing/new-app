@@ -1,0 +1,29 @@
+@import './base-color.css';
+
+:root {
+  --primary-text-color: var(--color-primary);
+
+  --card-bg-color: var(--color-background);
+
+  --card-title-color: var(--color-text);
+
+  --card-content-color: var(--color-text-secondary);
+
+  --card-border-color: var(--color-border);
+
+  --card-shadow-color: var(--color-shadow);
+}
+
+.dark {
+  --primary-text-color: var(--color-primary);
+
+  --card-bg-color: var(--color-background);
+
+  --card-title-color: var(--color-text);
+
+  --card-content-color: var(--color-text-secondary);
+
+  --card-border-color: var(--color-border);
+
+  --card-shadow-color: var(--color-shadow);
+}

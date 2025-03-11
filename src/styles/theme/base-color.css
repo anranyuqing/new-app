@@ -1,0 +1,39 @@
+:root {
+  /* 颜色变量 */
+  --color-primary: #3498db; /* 主色 */
+  --color-secondary: #2ecc71; /* 辅助色 */
+  --color-tertiary: #f39c12; /* 第三色 */
+  --color-quaternary: #e74c3c; /* 第四色 */
+  --color-background: #ffffff; /* 背景色 */
+  --color-background-secondary: #f1f3f6; /* 次要背景色 */
+  --color-text: #000; /* 主要文本色 */
+  --color-text-secondary: #333333;
+  --color-shadow: rgba(0, 0, 0, 0.1); /* 阴影色 */
+
+  /* 状态颜色 */
+  --color-success: #28a745; /* 成功色 */
+  --color-warning: #ffc107; /* 警告色 */
+  --color-error: #dc3545; /* 错误色 */
+  --color-info: #17a2b8; /* 信息色 */
+  --color-muted: #6c757d; /* 暗色文本 */
+  --color-link: #007bff; /* 超链接颜色 */
+}
+
+.dark {
+  --color-primary: #1e90ff; /* 主色 */
+  --color-secondary: #32cd32; /* 辅助色 */
+  --color-tertiary: #ffa500; /* 第三色 */
+  --color-quaternary: #ff6347; /* 第四色 */
+  --color-background: #121212; /* 背景色 */
+  --color-text: #ffffff; /* 主要文本色 */
+  --color-border: #444444; /* 边框色 */
+  --color-shadow: rgba(0, 0, 0, 0.5); /* 阴影色 */
+
+  /* 状态颜色 */
+  --color-success: #28a745; /* 成功色 */
+  --color-warning: #ffc107; /* 警告色 */
+  --color-error: #dc3545; /* 错误色 */
+  --color-info: #17a2b8; /* 信息色 */
+  --color-muted: #a9a9a9; /* 暗色文本 */
+  --color-link: #1e90ff; /* 超链接颜色 */
+}
