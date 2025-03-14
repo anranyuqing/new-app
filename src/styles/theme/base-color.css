@@ -8,7 +8,8 @@
   --color-background-secondary: #f1f3f6; /* 次要背景色 */
   --color-text: #000; /* 主要文本色 */
   --color-text-secondary: #333333;
-  --color-shadow: rgba(0, 0, 0, 0.1); /* 阴影色 */
+  --color-shadow: rgba(10, 10, 0, 1); /* 阴影色 */
+  --color-special: #fff;
 
   /* 状态颜色 */
   --color-success: #28a745; /* 成功色 */
@@ -28,6 +29,7 @@
   --color-text: #ffffff; /* 主要文本色 */
   --color-border: #444444; /* 边框色 */
   --color-shadow: rgba(0, 0, 0, 0.5); /* 阴影色 */
+  --color-special: #fff;
 
   /* 状态颜色 */
   --color-success: #28a745; /* 成功色 */

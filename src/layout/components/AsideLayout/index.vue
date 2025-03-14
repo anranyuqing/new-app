@@ -27,23 +27,11 @@ const menuOptions = ref([
     iconName: 'line-md:document-report',
   },
   {
-    label: "3D可视化",
-    children: [],
+    label: "数字孪生",
     key: "3d",
     iconName: 'iconoir:select-face-3d',
   },
-  {
-    label: "文档中心",
-    key: "file",
-    iconName: 'material-symbols:drive-file-move-outline',
-    children: [
-      {
-        label: "3D可视化",
-        key: "3d",
-        path: ''
-      },
-    ],
-  },
+
 ]);
 
 function handleClick(key: string, node: any) {

@@ -3,7 +3,7 @@
     <header-layout ref="heightRef" />
     <div class="flex wh-full box-border" :style="{ height: contentHeightStr }">
       <aside-layout />
-      <div class="wh-full p-2.5 bg-#f1f3f6">
+      <div class="wh-full p-2.5 bg-card">
         <main-layout />
       </div>
     </div>
