@@ -5,4 +5,8 @@ export const constantRoutes: RouteRecordRaw[] = [
         redirect: import.meta.env.VITE_APP_REDIRECT_URL,
         children: []
     },
+    {
+        path:'/login',
+        component: () => import('@/pages/login/index.vue'),
+    }
 ]

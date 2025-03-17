@@ -1,5 +1,5 @@
 <template>
-  <n-config-provider :theme="theme" class="wh-full" >
+  <n-config-provider :theme="theme" class="wh-full" :theme-overrides="ThemeOveride">
     <router-view />
   </n-config-provider>
 </template>
@@ -11,5 +11,5 @@ import { useThemeStore } from '@/store'
 const themeStore = useThemeStore()
 const theme = computed(() => themeStore.isDark ? darkTheme : undefined)
 
-
+import ThemeOveride from '@/styles/theme/modules'
 </script>
