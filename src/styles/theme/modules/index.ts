@@ -5,7 +5,4 @@ export default {
     primaryColorPressed: '#0081ff',
     primaryColorSuppl: '#0081ff',
   },
-  menu:{
-    color:'red'
-  }
 }

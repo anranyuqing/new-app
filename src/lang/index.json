@@ -1,0 +1,62 @@
+{
+	"et522": {
+		"zh-cn": "卡片",
+		"en": "card",
+		"ko": "카드",
+		"ja": "カードです"
+	},
+	"azq9964": {
+		"zh-cn": "卡片内容",
+		"en": "Card content",
+		"ko": "카드 내용",
+		"ja": "カードの中身です"
+	},
+	"c76fp3": {
+		"zh-cn": "主题色",
+		"en": "Subject color",
+		"ko": "테마 색상",
+		"ja": "テーマカラーです"
+	},
+	"e529l3": {
+		"zh-cn": "工作台",
+		"en": "workbench",
+		"ko": "작업대",
+		"ja": "作業台です"
+	},
+	"167eb25": {
+		"zh-cn": "3D可视化",
+		"en": "3D visualization",
+		"ko": "3d 시각화",
+		"ja": "3D可視化です"
+	},
+	"d8o54i4": {
+		"zh-cn": "文档中心",
+		"en": "Document center",
+		"ko": "문서 센터",
+		"ja": "ドキュメントセンターです"
+	},
+	"i86ymy9": {
+		"zh-cn": "当前菜单未配置路由",
+		"en": "No route is configured in the current menu",
+		"ko": "현재 메뉴의 라우팅이 설정되어 있지 않습니다",
+		"ja": "現在のメニューは設定されていません"
+	},
+	"mtva2": {
+		"zh-cn": "英文",
+		"en": "English",
+		"ko": "영어",
+		"ja": "英語です"
+	},
+	"dure2": {
+		"zh-cn": "中文",
+		"en": "Chinese",
+		"ko": "중국어",
+		"ja": "中文"
+	},
+	"fwrpxp4": {
+		"zh-cn": "简体中文",
+		"en": "Simplified Chinese",
+		"ko": "중국어 간체",
+		"ja": "簡体字中国語"
+	}
+}

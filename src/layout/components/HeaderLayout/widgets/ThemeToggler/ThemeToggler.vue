@@ -1,8 +1,8 @@
 <template>
-  <div class="cursor-pointer">
-    <icon icon="line-md:sun-rising-filled-loop"  :size="20" v-if="themeStore.isDark"
+  <div class="cursor-pointer flex-center">
+    <icon icon="line-md:sun-rising-filled-loop" class="shrink-0"  :size="20" v-if="themeStore.isDark"
       @click="(e) => toggleTheme(e, 'light')" color="#fff" />
-    <icon icon="line-md:moon-rising-filled-loop" :size="20" v-else @click="(e) => toggleTheme(e, 'dark')" />
+    <icon icon="line-md:moon-rising-filled-loop" class="shrink-0" :size="20" v-else @click="(e) => toggleTheme(e, 'dark')" />
   </div>
 </template>
 

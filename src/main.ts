@@ -1,10 +1,10 @@
+import './lang/index'
 import { createApp } from 'vue'
 import App from './App.vue'
 import { setupRouter } from '@/router'
 import { setupStyle } from './styles'
 import { setupAssets } from './plugins'
 import { setupStore } from '@/store'
-
 const app = createApp(App)
 /*注册全局样式 */
 setupStyle()
