@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full  box-border overflow-auto">
+  <div class="wh-full  box-border overflow-auto">
     <router-view />
   </div>
 </template>

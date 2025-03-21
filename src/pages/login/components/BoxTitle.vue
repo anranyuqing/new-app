@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="m-0">欢迎回来！</h2>
+    <div class="m-0 text-9 font-bold c-secondary">欢迎回来！</div>
   </div>
 </template>
 

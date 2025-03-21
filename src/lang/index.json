@@ -64,5 +64,131 @@
 		"en": "Digital twin",
 		"ko": "디지털 쌍둥이",
 		"ja": "デジタルツイン"
+	},
+	"b7gq3y5": {
+		"zh-cn": "欢迎回来！",
+		"en": "Welcome back!",
+		"ko": "돌아온 것을 환영합니다!",
+		"ja": "お帰りなさいませ!"
+	},
+	"hmxge3": {
+		"zh-cn": "用户名",
+		"en": "username",
+		"ko": "사용자 이름",
+		"ja": "ユーザー名です"
+	},
+	"7grhuz6": {
+		"zh-cn": "请输入用户名",
+		"en": "Please enter your username",
+		"ko": "사용자 이름을 입력하십시오",
+		"ja": "ユーザー名の入力をお願いします"
+	},
+	"2j9vj05": {
+		"zh-cn": "请输入密码",
+		"en": "Please enter password",
+		"ko": "비밀번호를 입력하십시오.",
+		"ja": "パスワードをお願いします"
+	},
+	"adha07e": {
+		"zh-cn": "长度在 3 到 15 个字符",
+		"en": "The length is 3 to 15 characters",
+		"ko": "3 글자에서 15 글자 사이이다",
+		"ja": "長さは3 ~ 15文字です"
+	},
+	"k4h6dme": {
+		"zh-cn": "长度在 6 到 15 个字符",
+		"en": "6 to 15 characters in length",
+		"ko": "6~15 글자 크기이다",
+		"ja": "長さは6 ~ 15文字です"
+	},
+	"qep9x85": {
+		"zh-cn": "用户名: ",
+		"en": "User Name:",
+		"ko": "사용자 이름:",
+		"ja": "ユーザー名です:"
+	},
+	"xdv3kl6": {
+		"zh-cn": ", 密码: ",
+		"en": ", Password:",
+		"ko": ", 비밀번호:",
+		"ja": "、パスワードです:"
+	},
+	"e434me4": {
+		"zh-cn": "欢迎登录",
+		"en": "Welcome to login",
+		"ko": "로그인을 환영합니다",
+		"ja": "ログイン歓迎です"
+	},
+	"g9ob2": {
+		"zh-cn": "密码",
+		"en": "cipher",
+		"ko": "암호",
+		"ja": "パスワードです"
+	},
+	"koca2": {
+		"zh-cn": "登录",
+		"en": "Log in",
+		"ko": "로그인",
+		"ja": "登録します"
+	},
+	"qylb2": {
+		"zh-cn": "首页",
+		"en": "Home page",
+		"ko": "첫 페이지",
+		"ja": "トップページです"
+	},
+	"7b32n16": {
+		"zh-cn": "请输入验证码",
+		"en": "Please enter the verification code",
+		"ko": "인증번호를 입력해주세요",
+		"ja": "captcha入力をお願いします。"
+	},
+	"hykar44": {
+		"zh-cn": "记住账号",
+		"en": "Remember account number",
+		"ko": "계좌번호를 외우다",
+		"ja": "アカウントを覚えておきます"
+	},
+	"xfgztg5": {
+		"zh-cn": "忘记密码？",
+		"en": "Forgot your password?",
+		"ko": "비밀번호를 잊었나요?",
+		"ja": "パスワードを忘れましたか?"
+	},
+	"shgaim5": {
+		"zh-cn": "手机号登录",
+		"en": "Mobile number login",
+		"ko": "핸드폰 번호 등록",
+		"ja": "携帯電話番号を登録します"
+	},
+	"virsh95": {
+		"zh-cn": "二维码登录",
+		"en": "Qr code login",
+		"ko": "qr 코드 등록",
+		"ja": "qrコード登録です"
+	},
+	"ijq1": {
+		"zh-cn": "左",
+		"en": "The left",
+		"ko": "왼쪽",
+		"ja": "左です"
+	},
+	"v1a1806": {
+		"zh-cn": "其他登录方式",
+		"en": "Other login methods",
+		"ko": "기타 로그인 방법",
+		"ja": "その他の登録方法です"
+	},
+	"q9q27m6": {
+		"zh-cn": "还没有账号？",
+		"en": "Don't have an account yet?",
+		"ko": "아직 계좌번호가 없으세요?",
+		"ja": "口座番号はまだですか?"
+	},
+	"arefbk4": {
+		"zh-cn": "创建账号",
+		"en": "Create an account",
+		"ko": "계정 생성",
+		"ja": "アカウントを作成します"
 	}
 }

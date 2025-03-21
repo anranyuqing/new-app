@@ -21,16 +21,24 @@ function renderIcon({ iconName }) {
 
 const menuOptions = ref([
   {
-    label: "工作台",
-    children: [],
-    key: "workbench",
+    label: "首页",
+    key: "dashboard",
     iconName: 'line-md:document-report',
+    children: [{
+      label: "工作台",
+      key: "workbench",
+      iconName: 'line-md:document-report',
+      path: '/workbench'
+
+    },
+      {
+        label: "数字孪生",
+        key: "3d",
+        iconName: 'iconoir:select-face-3d',
+        path: '/three'
+      },],
   },
-  {
-    label: "数字孪生",
-    key: "3d",
-    iconName: 'iconoir:select-face-3d',
-  },
+
 
 ]);
 
